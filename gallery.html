@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>意境意大利 · 旅行相册</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="./index.html">
+        <span class="brand-name">Italy Travel Guide<span class="brand-dot" aria-hidden="true"></span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="展开导航">☰</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./destinations.html">目的地</a></li>
+          <li><a href="./rome.html">罗马专题</a></li>
+          <li><a href="./routes.html">路线攻略</a></li>
+          <li><a href="./food.html">美食推荐</a></li>
+          <li><a href="./hotels.html">住宿指南</a></li>
+          <li><a href="./traffic.html">交通指南</a></li>
+          <li><a href="./budget.html">旅行预算</a></li>
+          <li><a href="./gallery.html">旅行相册</a></li>
+          <li><a href="./contact.html">咨询预约</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="hero-eyebrow">Gallery</span>
+          <h1>把意大利装进一张相册</h1>
+          <p>从罗马的金色傍晚到威尼斯的运河夜色，从五渔村的彩色房屋到那不勒斯的披萨炉火。点击任意一张图片可查看放大效果。</p>
+        </div>
+        <div class="hero-card venice">
+          <span class="card-tag" style="background: rgba(255,255,255,.18); color:#fff;">Tip</span>
+          <h2>留出 5 分钟欣赏</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>城市与海岸</h2>
+            <p>12 张代表性主题，挑你最喜欢的角落。</p>
+          </div>
+        </div>
+
+        <div class="gallery" data-gallery>
+          <button type="button" data-art="rome" data-title="罗马 · 斗兽场" data-desc="清晨的斗兽场最值得早起，金色阳光打在石墙上。"><div class="gallery-tile card-art rome"></div><span class="gallery-label">Roma</span></button>
+          <button type="button" data-art="florence" data-title="佛罗伦萨 · 老桥" data-desc="阿尔诺河上最浪漫的老桥，黄昏拍照绝佳。"><div class="gallery-tile card-art florence"></div><span class="gallery-label">Firenze</span></button>
+          <button type="button" data-art="venice" data-title="威尼斯 · 大运河" data-desc="贡多拉与彩色房屋是威尼斯永恒的画面。"><div class="gallery-tile card-art venice"></div><span class="gallery-label">Venezia</span></button>
+          <button type="button" data-art="milan" data-title="米兰 · 大教堂" data-desc="上百座尖塔与白色大理石的米兰大教堂。"><div class="gallery-tile card-art milan"></div><span class="gallery-label">Milano</span></button>
+          <button type="button" data-art="naples" data-title="那不勒斯 · 海湾" data-desc="维苏威火山下，海湾把整座城市捧在掌心。"><div class="gallery-tile card-art naples"></div><span class="gallery-label">Napoli</span></button>
+          <button type="button" data-art="cinque" data-title="五渔村 · 彩色房屋" data-desc="挂在悬崖上的彩色童话小镇。"><div class="gallery-tile card-art cinque"></div><span class="gallery-label">Cinque Terre</span></button>
+          <button type="button" data-art="amalfi" data-title="阿玛尔菲 · 海岸公路" data-desc="蜿蜒山路上的白色教堂与地中海。"><div class="gallery-tile card-art amalfi"></div><span class="gallery-label">Amalfi</span></button>
+          <button type="button" data-art="tuscany" data-title="托斯卡纳 · 葡萄园" data-desc="一望无际的田野与远处的塔楼。"><div class="gallery-tile card-art tuscany"></div><span class="gallery-label">Toscana</span></button>
+          <button type="button" data-art="pizza" data-title="美食 · 那不勒斯披萨" data-desc="那不勒斯木柴炉里的烟火气与拉丝奶酪。"><div class="gallery-tile card-art pizza"></div><span class="gallery-label">Pizza</span></button>
+          <button type="button" data-art="gelato" data-title="美食 · 手工冰激凌" data-desc="意大利夏天的解暑神器。"><div class="gallery-tile card-art gelato"></div><span class="gallery-label">Gelato</span></button>
+          <button type="button" data-art="coffee" data-title="美食 · 浓缩咖啡" data-desc="意大利人最熟悉的早晨味道。"><div class="gallery-tile card-art coffee"></div><span class="gallery-label">Espresso</span></button>
+          <button type="button" data-art="wine" data-title="美食 · 托斯卡纳红酒" data-desc="基安蒂红酒搭配橄榄油烤面包。"><div class="gallery-tile card-art wine"></div><span class="gallery-label">Wine</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="lightbox" class="lightbox">
+    <div class="lightbox-card">
+      <div class="lightbox-art card-art rome"></div>
+      <div>
+        <span class="card-tag">Memory</span>
+        <h3 class="lightbox-title">罗马 · 斗兽场</h3>
+        <p class="lightbox-desc">清晨的斗兽场最值得早起，金色阳光打在石墙上。</p>
+      </div>
+      <div class="lightbox-actions">
+        <button type="button" class="btn btn-secondary" data-close-lightbox>关闭</button>
+      </div>
+    </div>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>关于意境意大利</h4>
+          <p>一份面向自由行旅行者的意大利攻略指南，整理城市玩法、美食、住宿与交通建议。</p>
+        </div>
+        <div>
+          <h4>站点页面</h4>
+          <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./destinations.html">目的地</a></li>
+            <li><a href="./rome.html">罗马专题</a></li>
+            <li><a href="./routes.html">路线攻略</a></li>
+            <li><a href="./food.html">美食推荐</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>更多服务</h4>
+          <ul>
+            <li><a href="./hotels.html">住宿指南</a></li>
+            <li><a href="./traffic.html">交通指南</a></li>
+            <li><a href="./budget.html">旅行预算</a></li>
+            <li><a href="./gallery.html">旅行相册</a></li>
+            <li><a href="./contact.html">咨询预约</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 · Italy Travel Guide</span>
+        <span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

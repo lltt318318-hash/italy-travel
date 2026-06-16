@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>意境意大利 · 目的地推荐</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="./index.html">
+        <span class="brand-name">Italy Travel Guide<span class="brand-dot" aria-hidden="true"></span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="展开导航">☰</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./destinations.html">目的地</a></li>
+          <li><a href="./rome.html">罗马专题</a></li>
+          <li><a href="./routes.html">路线攻略</a></li>
+          <li><a href="./food.html">美食推荐</a></li>
+          <li><a href="./hotels.html">住宿指南</a></li>
+          <li><a href="./traffic.html">交通指南</a></li>
+          <li><a href="./budget.html">旅行预算</a></li>
+          <li><a href="./gallery.html">旅行相册</a></li>
+          <li><a href="./contact.html">咨询预约</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="hero-eyebrow">Destinations</span>
+          <h1>意大利值得停留的 9 座城市</h1>
+          <p>每座意大利城市都有自己独特的味道：罗马是历史厚度，威尼斯是水的灵动，五渔村是阳光与海浪。挑选适合你旅行节奏的目的地，组合属于你的路线。</p>
+        </div>
+        <div class="hero-card tuscany">
+          <span class="card-tag" style="background: rgba(255,255,255,.18); color:#fff;">Tip</span>
+          <h2>规划顺序建议</h2>
+          <p>北方城市（米兰、威尼斯）→ 托斯卡纳（佛罗伦萨）→ 南部（罗马、那不勒斯、阿玛尔菲）这样安排路线可减少回头路。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>按主题筛选目的地</h2>
+            <p>选择你最想体验的主题，找到匹配的意大利城市。</p>
+          </div>
+        </div>
+
+        <div class="chips" data-filter-group data-target=".destination-grid">
+          <button class="chip is-active" type="button" data-filter="all">全部</button>
+          <button class="chip" type="button" data-filter="art">艺术</button>
+          <button class="chip" type="button" data-filter="history">历史</button>
+          <button class="chip" type="button" data-filter="sea">海岸</button>
+          <button class="chip" type="button" data-filter="food">美食</button>
+          <button class="chip" type="button" data-filter="nature">自然</button>
+        </div>
+
+        <div class="grid grid-3 destination-grid">
+          <article class="card" data-tags="history art">
+            <div class="card-art rome"><span class="card-art-label">Roma</span></div>
+            <div class="card-body">
+              <span class="card-tag">永恒之城</span>
+              <h3>罗马 Roma</h3>
+              <p>古罗马遗址、梵蒂冈博物馆、特莱维喷泉，每一步都踏在历史上。</p>
+              <div class="card-meta"><span>建议 3 天</span><span>大都市</span></div>
+              <a class="card-link" href="./rome.html">查看专题 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="art food">
+            <div class="card-art florence"><span class="card-art-label">Firenze</span></div>
+            <div class="card-body">
+              <span class="card-tag">文艺复兴</span>
+              <h3>佛罗伦萨 Firenze</h3>
+              <p>米开朗基罗的大卫像、乌菲兹美术馆、托斯卡纳红酒下午茶。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>艺术之都</span></div>
+              <a class="card-link" href="./routes.html">加入路线 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="art sea">
+            <div class="card-art venice"><span class="card-art-label">Venezia</span></div>
+            <div class="card-body">
+              <span class="card-tag">水城</span>
+              <h3>威尼斯 Venezia</h3>
+              <p>圣马可广场、彩色岛、贡多拉与黄昏的运河倒影。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>浪漫</span></div>
+              <a class="card-link" href="./gallery.html">查看图集 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="art food">
+            <div class="card-art milan"><span class="card-art-label">Milano</span></div>
+            <div class="card-body">
+              <span class="card-tag">时尚之都</span>
+              <h3>米兰 Milano</h3>
+              <p>米兰大教堂、Galleria 拱廊、最后的晚餐与时装设计师工作室。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>购物</span></div>
+              <a class="card-link" href="./routes.html">加入路线 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="food history">
+            <div class="card-art naples"><span class="card-art-label">Napoli</span></div>
+            <div class="card-body">
+              <span class="card-tag">披萨故乡</span>
+              <h3>那不勒斯 Napoli</h3>
+              <p>正宗玛格丽特披萨、庞贝古城与维苏威火山，热烈又真实。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>美食</span></div>
+              <a class="card-link" href="./food.html">查看美食 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="sea nature">
+            <div class="card-art cinque"><span class="card-art-label">Cinque Terre</span></div>
+            <div class="card-body">
+              <span class="card-tag">海岸童话</span>
+              <h3>五渔村 Cinque Terre</h3>
+              <p>五个挂在悬崖上的彩色小镇，沿海徒步、跳海与柠檬冰沙。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>徒步</span></div>
+              <a class="card-link" href="./routes.html">加入路线 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="sea food">
+            <div class="card-art amalfi"><span class="card-art-label">Amalfi</span></div>
+            <div class="card-body">
+              <span class="card-tag">阿玛尔菲海岸</span>
+              <h3>波西塔诺 Positano</h3>
+              <p>悬崖上的白色小镇、地中海蓝、海鲜意面与傍晚的金光。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>度假</span></div>
+              <a class="card-link" href="./gallery.html">查看图集 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="nature food">
+            <div class="card-art tuscany"><span class="card-art-label">Toscana</span></div>
+            <div class="card-body">
+              <span class="card-tag">乡村田园</span>
+              <h3>托斯卡纳 Toscana</h3>
+              <p>葡萄园、橄榄树、锡耶纳古城与圣吉米尼亚诺的塔楼。</p>
+              <div class="card-meta"><span>建议 2 天</span><span>慢节奏</span></div>
+              <a class="card-link" href="./routes.html">查看路线 →</a>
+            </div>
+          </article>
+          <article class="card" data-tags="history art">
+            <div class="card-art verona"><span class="card-art-label">Verona</span></div>
+            <div class="card-body">
+              <span class="card-tag">爱情之城</span>
+              <h3>维罗纳 Verona</h3>
+              <p>罗密欧与朱丽叶的城市，古罗马竞技场夏夜歌剧值得专门停留一晚。</p>
+              <div class="card-meta"><span>建议 1 天</span><span>文化</span></div>
+              <a class="card-link" href="./routes.html">加入路线 →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>关于意境意大利</h4>
+          <p>一份面向自由行旅行者的意大利攻略指南，整理城市玩法、美食、住宿与交通建议。</p>
+        </div>
+        <div>
+          <h4>站点页面</h4>
+          <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./destinations.html">目的地</a></li>
+            <li><a href="./rome.html">罗马专题</a></li>
+            <li><a href="./routes.html">路线攻略</a></li>
+            <li><a href="./food.html">美食推荐</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>更多服务</h4>
+          <ul>
+            <li><a href="./hotels.html">住宿指南</a></li>
+            <li><a href="./traffic.html">交通指南</a></li>
+            <li><a href="./budget.html">旅行预算</a></li>
+            <li><a href="./gallery.html">旅行相册</a></li>
+            <li><a href="./contact.html">咨询预约</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 · Italy Travel Guide</span>
+        <span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>意境意大利 · 住宿指南</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-row">
+      <a class="brand" href="./index.html">
+        <span class="brand-name">Italy Travel Guide<span class="brand-dot" aria-hidden="true"></span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="展开导航">☰</button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./destinations.html">目的地</a></li>
+          <li><a href="./rome.html">罗马专题</a></li>
+          <li><a href="./routes.html">路线攻略</a></li>
+          <li><a href="./food.html">美食推荐</a></li>
+          <li><a href="./hotels.html">住宿指南</a></li>
+          <li><a href="./traffic.html">交通指南</a></li>
+          <li><a href="./budget.html">旅行预算</a></li>
+          <li><a href="./gallery.html">旅行相册</a></li>
+          <li><a href="./contact.html">咨询预约</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="hero-eyebrow">Hotels &amp; Stays</span>
+          <h1>从青旅到海岸民宿，找一处贴合预算与心情的栖息地</h1>
+          <p>意大利的住宿选择极其丰富：罗马的精品酒店、佛罗伦萨的老宅民宿、五渔村的海景客栈、米兰的设计公寓。挑出最适合你的那一类。</p>
+        </div>
+        <div class="hero-card luxury">
+          <span class="card-tag" style="background: rgba(255,255,255,.18); color:#fff;">Tip</span>
+          <h2>提前 2–3 个月预订</h2>
+          <p>4–10 月旺季意大利住宿价格上涨明显，提前预订热门城市可节省 25%–40%。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>按人群筛选住宿类型</h2>
+            <p>不同旅行者优先级不同，先决定类型再选具体酒店。</p>
+          </div>
+        </div>
+
+        <div class="chips" data-filter-group data-target=".hotel-grid">
+          <button class="chip is-active" type="button" data-filter="all">全部</button>
+          <button class="chip" type="button" data-filter="budget">预算型</button>
+          <button class="chip" type="button" data-filter="couple">情侣</button>
+          <button class="chip" type="button" data-filter="family">亲子</button>
+          <button class="chip" type="button" data-filter="luxury">奢华</button>
+        </div>
+
+        <div class="grid grid-3 hotel-grid">
+          <article class="card" data-tags="budget">
+            <div class="card-art hostel"><span class="card-art-label">Hostel</span></div>
+            <div class="card-body">
+              <span class="card-tag">预算型</span>
+              <h3>青年旅舍</h3>
+              <p>多床位房 €25–€45/晚，含早餐和公共厨房，方便结识其他旅行者。</p>
+              <div class="card-meta"><span>预算</span><span>独行</span></div>
+            </div>
+          </article>
+          <article class="card" data-tags="couple budget">
+            <div class="card-art bnb"><span class="card-art-label">B&amp;B</span></div>
+            <div class="card-body">
+              <span class="card-tag">情侣</span>
+              <h3>老城民宿 B&amp;B</h3>
+              <p>€80–€140/晚，家庭式经营，常常能听到房东最地道的玩法建议。</p>
+              <div class="card-meta"><span>体验</span><span>独立卫浴</span></div>
+            </div>
+          </article>
+          <article class="card" data-tags="family">
+            <div class="card-art family"><span class="card-art-label">Family</span></div>
+            <div class="card-body">
+              <span class="card-tag">亲子</span>
+              <h3>家庭式公寓</h3>
+              <p>€120–€220/晚，带厨房和洗衣机，孩子和老人长期住更舒适。</p>
+              <div class="card-meta"><span>2 室 1 厅</span><span>电梯</span></div>
+            </div>
+          </article>
+          <article class="card" data-tags="luxury couple">
+            <div class="card-art hotel"><span class="card-art-label">Boutique</span></div>
+            <div class="card-body">
+              <span class="card-tag">精品</span>
+              <h3>设计精品酒店</h3>
+              <p>€220–€400/晚，多为老宅改造，地段好，房间风格强烈。</p>
+              <div class="card-meta"><span>含早餐</span><span>城市中心</span></div>
+            </div>
+          </article>
+          <article class="card" data-tags="luxury">
+            <div class="card-art luxury"><span class="card-art-label">Luxury</span></div>
+            <div class="card-body">
+              <span class="card-tag">奢华</span>
+              <h3>五星级酒店</h3>
+              <p>€400 起，含豪华下午茶、SPA 与城市景观房，适合度假纪念日。</p>
+              <div class="card-meta"><span>套房</span><span>礼宾服务</span></div>
+            </div>
+          </article>
+          <article class="card" data-tags="couple family">
+            <div class="card-art budget"><span class="card-art-label">Agriturismo</span></div>
+            <div class="card-body">
+              <span class="card-tag">乡村</span>
+              <h3>托斯卡纳庄园</h3>
+              <p>€140–€260/晚，葡萄园中的乡村庄园，含早餐和品酒体验。</p>
+              <div class="card-meta"><span>慢节奏</span><span>需自驾</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2>预订前的 4 个提醒</h2>
+            <p>避免到酒店当场踩雷，先看完这几条。</p>
+          </div>
+        </div>
+        <div class="grid grid-4">
+          <div class="panel">
+            <h3>地段优先</h3>
+            <p>尽量住在老城步行范围，节省的不只是车费，更是时间。</p>
+          </div>
+          <div class="panel">
+            <h3>电梯不是标配</h3>
+            <p>老城建筑常常没有电梯，行李较重的朋友请确认。</p>
+          </div>
+          <div class="panel">
+            <h3>城市税</h3>
+            <p>多数城市征收 €2–€7/人/晚的城市税，需要现场用现金支付。</p>
+          </div>
+          <div class="panel">
+            <h3>免费取消</h3>
+            <p>优先选择支持免费取消的房型，意大利节假日变动较多。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>关于意境意大利</h4>
+          <p>一份面向自由行旅行者的意大利攻略指南，整理城市玩法、美食、住宿与交通建议。</p>
+        </div>
+        <div>
+          <h4>站点页面</h4>
+          <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./destinations.html">目的地</a></li>
+            <li><a href="./rome.html">罗马专题</a></li>
+            <li><a href="./routes.html">路线攻略</a></li>
+            <li><a href="./food.html">美食推荐</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>更多服务</h4>
+          <ul>
+            <li><a href="./hotels.html">住宿指南</a></li>
+            <li><a href="./traffic.html">交通指南</a></li>
+            <li><a href="./budget.html">旅行预算</a></li>
+            <li><a href="./gallery.html">旅行相册</a></li>
+            <li><a href="./contact.html">咨询预约</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 · Italy Travel Guide</span>
+        <span></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+</html>
