@@ -25,7 +25,7 @@
     }
     const currentPage = (location.pathname.split("/").pop() || "index.html").toLowerCase();
     document.querySelectorAll(".nav-list a").forEach((link) => {
-      const href = (link.getAttribute("href") || "").toLowerCase();
+      const href = (link.getAttribute("href") || "").split("/").pop().toLowerCase();
       if (href === currentPage) link.classList.add("is-active");
     });
   }
